@@ -1,0 +1,67 @@
+.navbar-brand {
+  font-size: 30px; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: #24325d;
+  color: #ffffff; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #000; }
+
+.bg1 {
+  padding-top: 50px; }
+
+.bg1 h1 {
+  font-size: 50px;
+  color: #24325d; }
+
+.bg1 p {
+  font-size: 21px;
+  color: #929292;
+  font-weight: normal; }
+
+.bg2 {
+  padding-top: 100px; }
+
+.bg3 {
+  background: #eeeeee;
+  padding-top: 50px; }
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: #24325d;
+  margin: auto;
+  border-radius: 50%;
+  padding-top: 50px; }
+
+.font {
+  color: #ffffff;
+  font-size: 50px; }
+
+hr {
+  background-color: #ccc;
+  width: 90%;
+  height: 1px; }
+
+.row1 {
+  padding-bottom: 50px; }
+
+.bg4 {
+  background-color: #24325d;
+  padding: 50px 0px;
+  color: #ffffff; }
+
+.bg4 h2 {
+  line-height: 70px; }
+
+.bg4 p {
+  color: #4c5573; }
+
+.bg41 h2 {
+  font-weight: normal; }
+
+.bg41 hr {
+  width: 100%;
+  height: 1px;}
+/*# sourceMappingURL=style.css.map */
