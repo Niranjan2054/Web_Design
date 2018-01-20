@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya|Bungee|Courgette|Lobster|Lobster+Two|Pacifico|Shrikhand");
+p {
+  font-family: 'Alegreya', serif; }
+
+.navbar-default {
+  border: none;
+  border-radius: 0px; }
+
+.navbar-fixed-top {
+  height: 80px;
+  transition: .5s;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 15px; }
+  .navbar-fixed-top .navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px; }
+    .navbar-fixed-top .navbar-brand span {
+      color: #1dd2af; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: #1dd2af;
+  background-color: transparent; }
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 20px;
+  color: #fff; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  font-size: 20px;
+  color: #1dd2af;
+  text-shadow: 2px 2px 5px red; }
+
+.navbar-right {
+  margin-right: 60px; }
+
+.top-nav-collapse {
+  padding-top: 0px;
+  height: 50px; }
+
+.navbar-default .navbar-brand:hover {
+  color: #1dd2af; }
+
+.search {
+  position: relative;
+  width: 20px;
+  transition: .5s; }
+
+.search .search1 {
+  position: absolute;
+  top: -5px;
+  right: -160px;
+  padding: 5px;
+  font-size: 12px;
+  display: none;
+  background: transparent;
+  border: 2px solid;
+  transition: .5s; }
+
+.search:hover input {
+  display: block; }
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+  width: 100%; }
+
+.carousel-control.right {
+  width: 50px;
+  height: 90%; }
+
+.carousel-control.left {
+  width: 50px;
+  height: 90%; }
+
+.carousel-caption h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  color: #65f382;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-family: 'Bungee', cursive; }
+
+.carousel-caption p {
+  font-size: 28px;
+  padding-bottom: 10px;
+  font-family: 'Pacifico', cursive; }
+
+.carousel-caption {
+  padding-bottom: 250px !important; }
+  .carousel-caption button {
+    font-family: 'Lobster', cursive;
+    font-size: 20px; }
+
+.forth {
+  margin-top: -50px;
+  background-color: #2c3e50;
+  padding: 6px 0px 7px 0px; }
+  .forth .navbar-default {
+    background-color: #2c3e50; }
+  .forth .navbar-brand {
+    color: #fff !important;
+    font-size: 25px;
+    font-weight: bold; }
+  .forth .form-group label {
+    padding-left: 202px;
+    padding-right: 5px;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 10px; }
+
+.bg1000 {
+  margin: auto;
+  min-height: 50px;
+  width: 90%; }
+
+.fifth {
+  min-height: 80px;
+  background-color: #fff;
+  padding: 20px 0px;
+  clear: both; }
+  .fifth h3 {
+    font-family: 'Shrikhand', cursive; }
+
+.special {
+  position: relative;
+  transition: .3s; }
+
+.special .title h3 {
+  margin: 5px 0px 0px 0px; }
+
+.special .title p {
+  font-size: 12px; }
+
+.title {
+  margin-top: -5px;
+  margin-bottom: -10px;
+  transition: .3s; }
+  .title h3 {
+    font-family: 'Courgette', cursive; }
+
+.special:hover .title {
+  background-color: #4c4242;
+  color: #fff; }
+
+.special:hover {
+  border: 2px solid #1dd2af;
+  border-radius: 5px; }
+
+.cover {
+  width: 100%;
+  height: 75%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  transition: .3s; }
+
+.special:hover .cover {
+  display: none; }
+
+.sixth {
+  background: url("back.jpeg") fixed;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-size: cover;
+  color: #fff; }
+  .sixth h2 {
+    font-family: 'Courgette', cursive; }
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  overflow: hidden;
+  padding-top: 20px; }
+
+.circle1 {
+  background: url("img/type1.png") no-repeat center center;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  padding-top: 50px; }
+
+.circle1:hover {
+  background: url("img/type11.png") no-repeat center center; }
+
+.circle1 h4 {
+  color: #fff;
+  margin-top: 105px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 22px; }
+
+.circle1:hover h4 {
+  color: #1dd2af; }
+
+.circle1:hover {
+  border: 4px solid #1dd2af; }
+
+.circle2 {
+  background: url("img/type2.png") no-repeat center center;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  padding-top: 50px; }
+
+.circle2:hover {
+  background: url("img/type21.png") no-repeat center center; }
+
+.circle2 h4 {
+  color: #fff;
+  margin-top: 105px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 22px; }
+
+.circle2:hover h4 {
+  color: #1dd2af; }
+
+.circle2:hover {
+  border: 4px solid #1dd2af; }
+
+.circle3 {
+  background: url("img/type3.png") no-repeat center center;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  padding-top: 50px; }
+
+.circle3:hover {
+  background: url("img/type31.png") no-repeat center center; }
+
+.circle3 h4 {
+  color: #fff;
+  margin-top: 105px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 22px; }
+
+.circle3:hover h4 {
+  color: #1dd2af; }
+
+.circle3:hover {
+  border: 4px solid #1dd2af; }
+
+.circle4 {
+  background: url("img/type4.png") no-repeat center center;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  padding-top: 50px; }
+
+.circle4:hover {
+  background: url("img/type41.png") no-repeat center center; }
+
+.circle4 h4 {
+  color: #fff;
+  margin-top: 105px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 22px; }
+
+.circle4:hover h4 {
+  color: #1dd2af; }
+
+.circle4:hover {
+  border: 4px solid #1dd2af; }
+
+.circle5 {
+  background: url("img/type5.png") no-repeat center center;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  padding-top: 50px; }
+
+.circle5:hover {
+  background: url("img/type51.png") no-repeat center center; }
+
+.circle5 h4 {
+  color: #fff;
+  margin-top: 105px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 22px; }
+
+.circle5:hover h4 {
+  color: #1dd2af; }
+
+.circle5:hover {
+  border: 4px solid #1dd2af; }
+
+.circle6 {
+  background: url("img/type6.png") no-repeat center center;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  padding-top: 50px; }
+
+.circle6:hover {
+  background: url("img/type61.png") no-repeat center center; }
+
+.circle6 h4 {
+  color: #fff;
+  margin-top: 105px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 22px; }
+
+.circle6:hover h4 {
+  color: #1dd2af; }
+
+.circle6:hover {
+  border: 4px solid #1dd2af; }
+
+.client {
+  margin-top: 150px;
+  background-color: #fff;
+  height: auto;
+  overflow: hidden;
+  color: #2c3e50;
+  padding: 30px 0px; }
+
+.client h3, .client h4 {
+  color: #1dd2af;
+  font-family: 'Courgette', cursive; }
+
+.client p {
+  color: #777;
+  font-size: 18px; }
+
+.seventh {
+  padding: 20px 0px;
+  background-color: #2c3e50;
+  height: auto;
+  overflow: hidden;
+  color: #bbb; }
+
+.seventh h3 {
+  color: #1dd2af;
+  font-family: 'Lobster', cursive; }
+
+.tag .btn {
+  padding: 5px;
+  margin-bottom: 5px;
+  border: none; }
+
+a {
+  color: #ddd;
+  text-decoration: none; }
+
+.col-md-2 {
+  padding-bottom: 10px; }
+
+.mar {
+  margin-bottom: 65px; }
+
+.modal1 {
+  border-radius: 0px; }
+
+.modal2 {
+  color: #fff;
+  background-color: #1dd2af; }
+
+.lock {
+  font-size: 80px; }
+
+.text {
+  text-align: right; }
+
+.modal-footer a {
+  color: #1dd2af; }
+
+.eigth {
+  height: 25px;
+  overflow: hidden;
+  background: #2c3e50;
+  border-top: 1px groove #ddd;
+  font-size: 12px;
+  color: #000;
+  padding-top: 5px; }
+  .eigth a {
+    color: #000; }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .cover {
+    height: 90%; }
+
+  .col-md-2 {
+    text-align: center; }
+
+  .carousel-caption {
+    padding-bottom: 0px !important; }
+
+  .sixth .bg {
+    height: 100%; }
+
+  .navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+    color: yellow; }
+
+  .mar {
+    margin-left: 33%; } }
+
+/*# sourceMappingURL=style.css.map */
